@@ -1,11 +1,11 @@
 """Agent lifecycle management module."""
 
-from .registry import AgentRegistry
+from .registry import AgentRegistry, AgentStatus
 from .executor import AgentExecutor
 from .runtime import AgentRuntime
 from .sandbox import AgentSandbox
 
-__all__ = ["AgentRegistry", "AgentExecutor", "AgentRuntime", "AgentSandbox"]
+__all__ = ["AgentRegistry", "AgentStatus", "AgentExecutor", "AgentRuntime", "AgentSandbox"]
 
 # 2019-02-05T12:34:30 update
 
@@ -25,35 +25,7 @@ __all__ = ["AgentRegistry", "AgentExecutor", "AgentRuntime", "AgentSandbox"]
 
 # 2019-06-12T20:42:33 update
 
-# 2019-07-05T16:21:40 update
-
-# 2019-09-24T18:27:18 update
-
-# 2019-09-30T19:48:41 update
-
-# 2019-10-10T08:19:32 update
-
-# 2019-11-05T15:01:26 update
-
-# 2019-11-09T12:34:46 update
-
-# 2019-12-16T08:46:26 update
-
-# 2020-09-14T09:41:32 update
-
-# 2020-10-18T20:50:45 update
-
-# 2020-12-05T15:20:44 update
-
-# 2020-12-25T10:16:40 update
-
-# 2021-02-10T17:32:55 update
-
-# 2021-02-23T19:57:00 update
-
-# 2021-04-16T12:14:32 update
-
-# 2021-08-09T17:01:55 update
+# 2019-07-05T16:21:40 update update
 
 # 2021-08-11T10:45:20 update
 
@@ -87,7 +59,32 @@ __all__ = ["AgentRegistry", "AgentExecutor", "AgentRuntime", "AgentSandbox"]
 
 # 2023-04-19T19:00:21 update
 
-# 2023-07-20T16:16:23 update
+# 2023-07-20T16:16:23 update 2025-05-26T13:33:20 update
+
+# 2025-07-03T20:10:04 update
+
+# 2025-07-03T14:55:39 update
+
+# 2025-07-11T09:26:46 update
+
+# 2025-07-31T10:07:47 update
+
+# 2025-09-23T20:04:15 update
+
+# 2025-09-25T08:21:02 update
+
+# 2025-10-09T20:12:14 update
+
+# 2025-11-26T15:26:03 update
+
+# 2025-11-28T13:36:11 update
+
+# 2026-02-16T19:18:28 update
+
+# 2026-03-04T12:07:11 update
+
+# 2026-04-22T11:01:45 update
+
 
 # 2023-08-14T14:24:11 update
 
@@ -121,28 +118,32 @@ __all__ = ["AgentRegistry", "AgentExecutor", "AgentRuntime", "AgentSandbox"]
 
 # 2025-05-19T17:57:58 update
 
-# 2025-05-26T13:33:20 update
+#
 
-# 2025-07-03T20:10:04 update
+# 2019-09-24T18:27:18 update
 
-# 2025-07-03T14:55:39 update
+# 2019-09-30T19:48:41 update
 
-# 2025-07-11T09:26:46 update
+# 2019-10-10T08:19:32 update
 
-# 2025-07-31T10:07:47 update
+# 2019-11-05T15:01:26 update
 
-# 2025-09-23T20:04:15 update
+# 2019-11-09T12:34:46 update
 
-# 2025-09-25T08:21:02 update
+# 2019-12-16T08:46:26 update
 
-# 2025-10-09T20:12:14 update
+# 2020-09-14T09:41:32 update
 
-# 2025-11-26T15:26:03 update
+# 2020-10-18T20:50:45 update
 
-# 2025-11-28T13:36:11 update
+# 2020-12-05T15:20:44 update
 
-# 2026-02-16T19:18:28 update
+# 2020-12-25T10:16:40 update
 
-# 2026-03-04T12:07:11 update
+# 2021-02-10T17:32:55 update
 
-# 2026-04-22T11:01:45 update
+# 2021-02-23T19:57:00 update
+
+# 2021-04-16T12:14:32 update
+
+# 2021-08-09T17:01:55
